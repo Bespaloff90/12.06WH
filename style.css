@@ -1,70 +1,76 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
 
 body {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-
-    position: absolute;
-    width: 1920px;
-    height: 700px;
-
-    background: #FFFFFF;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
 }
 
-.main_logo{
-   
+.main_logo {}
 
-
-}
-
-/* img {
+img {
 	max-width: 100%;
 	display: block;
-} 
-не понимаю, почему применив css
-мой футер выстраивается в столбик?
-
-*/
-
+}
 
 .container {
-	
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
 }
 
 header {
+	padding: 55px 0;
+	margin-top: 60px;
+	margin-bottom: 85px;
+	/* display: flex; */
+	/* justify-content: space-between; */
+	font-size: 14px;
+	line-height: 16px;
+/* identical to box height */
+
+
+	color: #F25822;
 	
 }
 
+.content_btns_button_getstart {
+	background: #f25822;
+	box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+	border-radius: 50px;
+	padding: 20px 50px;
+	border: none;
+}
+
 .content_btns_button_start {
-	position: absolute;
-width: 140px;
-height: 50px;
-
-background: #F25822;
-box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
-border-radius: 50px;
+	background: #f25822;
+	box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+	padding: 20px 50px;
+	border-radius: 80px;
+	border: none;
 }
 
-.content_btns_buttonplay{
-position: absolute;
-width: 90px;
-height: 19px;
-font-family: 'Gilroy-Bold';
-font-size: 15px;
-line-height: 18px;
-color: #AAAAAA;
+.content_btns_buttonplay {
+	font-family: 'Gilroy-Bold';
+	font-size: 15px;
+	line-height: 18px;
+	padding: 20px 50px;
+
+	background-color: none;
+	border: none;
+
 }
 
-footer {position: absolute;
-    width: 1920px;
-    height: 243px;
-    
-    background: #FFFFFF;
-    }
+footer {}
+
+.logos {
+	display: flex;
+	justify-content: space-between;
+}
